@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Launcher9</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="permission_on">On</string>
+    <string name="permission_off">Off</string>
+
+    <string name="setup_welcome_title">Welcome to Launcher9</string>
+    <string name="setup_welcome_body">A simple home screen for seniors and kids. Phone, Messages, Contacts, Browser, and Settings are added first. Other apps need a PIN or fingerprint, and apps that sneak to the foreground are blocked.</string>
+    <string name="setup_home_title">Set as default home</string>
+    <string name="setup_home_body">Set Launcher9 as the default home app so the Home button returns here.</string>
+    <string name="setup_home_action">Set default home</string>
+    <string name="setup_home_on">Already the default home</string>
+    <string name="setup_home_off">Not the default home yet</string>
+    <string name="setup_pin_title">Set Usage Control PIN</string>
+    <string name="setup_pin_body">Choose a 4–6 digit PIN. You’ll need it to add apps, open All Apps, and change wallpaper.</string>
+    <string name="setup_pin_confirm_title">Enter PIN again</string>
+    <string name="setup_pin_mismatch">PINs don’t match</string>
+    <string name="setup_pin_short">PIN must be 4–6 digits</string>
+    <string name="setup_bio_title">Use fingerprint</string>
+    <string name="setup_bio_body">If this device has a fingerprint, you can use it instead of the PIN. The PIN is still kept.</string>
+    <string name="setup_bio_switch">Enable fingerprint</string>
+    <string name="setup_bio_unavailable">No fingerprint available. Continue with the PIN.</string>
+    <string name="setup_usage_title">Usage access</string>
+    <string name="setup_usage_body">Needed to detect when an app that isn’t on the home screen comes to the foreground.</string>
+    <string name="setup_usage_action">Enable usage access</string>
+    <string name="setup_overlay_title">Display over other apps</string>
+    <string name="setup_overlay_body">Needed to block apps that aren’t on the home screen right away. Without overlay permission, a block screen still appears but may flash briefly.</string>
+    <string name="setup_overlay_action">Enable overlay</string>
+    <string name="setup_skip_hint">You can finish now and turn this on later in Usage Control.</string>
+    <string name="setup_done">Go to home</string>
+
+    <string name="home_empty_title">No apps yet</string>
+    <string name="home_empty_body">Only apps you add appear here. Other apps require verification to open.</string>
+    <string name="home_date_pattern">EEE, MMM d</string>
+    <string name="home_default_banner">Not set as default home. The Home button may not return here.</string>
+    <string name="home_default_action">Set as default</string>
+    <string name="home_pin_banner">Set a Usage Control PIN first. You’ll need it to add apps and open All Apps.</string>
+    <string name="home_pin_action">Set PIN</string>
+    <string name="action_add">Add</string>
+    <string name="action_menu">More</string>
+    <string name="action_all_apps">All apps</string>
+    <string name="action_wallpaper">Wallpaper</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_phone">Phone</string>
+    <string name="action_emergency">Emergency call</string>
+    <string name="permission_banner">Protection isn’t ready. Enable permissions to block apps that shouldn’t be used.</string>
+    <string name="permission_banner_action">Enable</string>
+    <string name="camera_unavailable">Can’t open Camera</string>
+    <string name="phone_unavailable">This device has no phone</string>
+    <string name="remove_title">Remove from home</string>
+    <string name="remove_body">After removing “%1$s”, it won’t show on the home screen and will be blocked when opened.</string>
+    <string name="remove_confirm">Remove</string>
+
+    <string name="auth_add">Verify to add apps</string>
+    <string name="auth_drawer">Verify to open All Apps</string>
+    <string name="auth_wallpaper">Verify to set wallpaper</string>
+    <string name="auth_settings">Verify to open Usage Control</string>
+    <string name="auth_remove">Verify to remove from home</string>
+    <string name="pin_wrong">Incorrect PIN</string>
+    <string name="pin_locked">Too many attempts. Try again in %1$d s</string>
+    <string name="pin_not_set">No PIN set yet</string>
+    <string name="use_pin">Use PIN</string>
+    <string name="biometric_title">Verify identity</string>
+    <string name="biometric_subtitle">Use your fingerprint</string>
+    <string name="biometric_action">Fingerprint</string>
+
+    <string name="picker_title">Add apps</string>
+    <string name="picker_empty">No apps to add</string>
+    <string name="picker_add">Add to home (%1$d)</string>
+    <string name="drawer_title">All apps</string>
+    <string name="drawer_empty">No apps to open</string>
+    <string name="drawer_hint">Tap to open. Long-press for app info.</string>
+    <string name="app_info">App info</string>
+    <string name="app_info_unavailable">Can’t open app info</string>
+    <string name="settings_title">Usage Control</string>
+    <string name="settings_pin">Change PIN</string>
+    <string name="settings_pin_current">Enter current PIN</string>
+    <string name="settings_pin_new">Enter new PIN</string>
+    <string name="settings_pin_confirm">Enter new PIN again</string>
+    <string name="settings_bio">Fingerprint</string>
+    <string name="settings_wallpaper">Wallpaper</string>
+    <string name="settings_permissions">Protection permissions</string>
+    <string name="settings_default_home">Default home</string>
+    <string name="settings_set_home">Set as default home</string>
+    <string name="settings_pin_saved">PIN updated</string>
+
+    <string name="block_message">This app isn’t on the home screen</string>
+    <string name="block_home">Back to home</string>
+    <string name="wallpaper_unavailable">No wallpaper picker on this device</string>
+    <string name="emergency_unavailable">No emergency call on this device</string>
+
+    <string name="notif_channel">Home protection</string>
+    <string name="notif_title">Launcher9</string>
+    <string name="notif_text">Protecting apps not added to the home screen</string>
+</resources>

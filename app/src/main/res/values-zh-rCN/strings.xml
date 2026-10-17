@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Launcher9</string>
+    <string name="next">下一步</string>
+    <string name="back">返回</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="permission_on">已开启</string>
+    <string name="permission_off">未开启</string>
+
+    <string name="setup_welcome_title">欢迎使用 Launcher9</string>
+    <string name="setup_welcome_body">这是给老人和孩子用的桌面。首次会放上电话、信息、联系人、浏览器和设置。其他应用需要密码或指纹才能打开，偷偷跑起来也会被挡住。</string>
+    <string name="setup_home_title">设为默认桌面</string>
+    <string name="setup_home_body">请把 Launcher9 设为默认桌面，这样按主页键会回到这里。</string>
+    <string name="setup_home_action">去设置默认桌面</string>
+    <string name="setup_home_on">当前已是默认桌面</string>
+    <string name="setup_home_off">当前还不是默认桌面</string>
+    <string name="setup_pin_title">设置使用控制密码</string>
+    <string name="setup_pin_body">请设置 4 到 6 位数字密码。添加应用、打开所有应用和设置壁纸时都要用它。</string>
+    <string name="setup_pin_confirm_title">再输入一次密码</string>
+    <string name="setup_pin_mismatch">两次密码不一致</string>
+    <string name="setup_pin_short">密码需要 4 到 6 位</string>
+    <string name="setup_bio_title">使用指纹</string>
+    <string name="setup_bio_body">这台设备有指纹时，可以用指纹代替密码。密码仍然保留。</string>
+    <string name="setup_bio_switch">开启指纹验证</string>
+    <string name="setup_bio_unavailable">这台设备没有可用的指纹，请继续使用密码。</string>
+    <string name="setup_usage_title">使用情况访问</string>
+    <string name="setup_usage_body">需要这项权限，才能知道没添加到桌面的应用是不是跑到了前台。</string>
+    <string name="setup_usage_action">去开启使用情况访问</string>
+    <string name="setup_overlay_title">显示在其他应用上层</string>
+    <string name="setup_overlay_body">需要这项权限，才能在未添加到主屏的应用打开时立刻挡住画面。不开悬浮窗时仍会尽量弹出拦截页，但可能会闪一下。</string>
+    <string name="setup_overlay_action">去开启悬浮窗</string>
+    <string name="setup_skip_hint">可以先完成，之后在使用控制里再开。</string>
+    <string name="setup_done">进入桌面</string>
+
+    <string name="home_empty_title">还没有应用</string>
+    <string name="home_empty_body">这里只显示你添加的应用。其他应用需要验证后才能打开。</string>
+    <string name="home_date_pattern">M月d日 EEEE</string>
+    <string name="home_default_banner">还没设成默认桌面。按手机下方的圆圈键，可能回不到这里。</string>
+    <string name="home_default_action">去设为默认</string>
+    <string name="home_pin_banner">请先设置使用控制密码。以后添加应用、打开全部应用时要用。</string>
+    <string name="home_pin_action">去设置密码</string>
+    <string name="action_add">添加</string>
+    <string name="action_menu">更多操作</string>
+    <string name="action_all_apps">所有应用</string>
+    <string name="action_wallpaper">设置壁纸</string>
+    <string name="action_settings">设置</string>
+    <string name="action_camera">相机</string>
+    <string name="action_phone">电话</string>
+    <string name="action_emergency">紧急呼叫</string>
+    <string name="permission_banner">保护还没开好。打开权限后，才能挡住不该用的应用。</string>
+    <string name="permission_banner_action">去开启</string>
+    <string name="camera_unavailable">打不开相机</string>
+    <string name="phone_unavailable">这台设备没有电话功能</string>
+    <string name="remove_title">从主屏移除</string>
+    <string name="remove_body">移除「%1$s」后，它不会显示在主屏，打开时也会被挡住。</string>
+    <string name="remove_confirm">移除</string>
+
+    <string name="auth_add">验证后添加应用</string>
+    <string name="auth_drawer">验证后打开所有应用</string>
+    <string name="auth_wallpaper">验证后设置壁纸</string>
+    <string name="auth_settings">验证后进入使用控制</string>
+    <string name="auth_remove">验证后从主屏移除</string>
+    <string name="pin_wrong">密码不正确</string>
+    <string name="pin_locked">尝试太多，请 %1$d 秒后再试</string>
+    <string name="pin_not_set">还没有设置密码</string>
+    <string name="use_pin">使用密码</string>
+    <string name="biometric_title">验证身份</string>
+    <string name="biometric_subtitle">请使用指纹</string>
+    <string name="biometric_action">指纹</string>
+
+    <string name="picker_title">添加应用</string>
+    <string name="picker_empty">没有可以添加的应用</string>
+    <string name="picker_add">添加到主屏（%1$d）</string>
+    <string name="drawer_title">所有应用</string>
+    <string name="drawer_empty">没有可打开的应用</string>
+    <string name="drawer_hint">点按打开，长按可查看应用信息</string>
+    <string name="app_info">应用信息</string>
+    <string name="app_info_unavailable">无法打开应用信息</string>
+    <string name="settings_title">使用控制</string>
+    <string name="settings_pin">修改密码</string>
+    <string name="settings_pin_current">输入当前密码</string>
+    <string name="settings_pin_new">输入新密码</string>
+    <string name="settings_pin_confirm">再输入一次新密码</string>
+    <string name="settings_bio">指纹验证</string>
+    <string name="settings_wallpaper">设置壁纸</string>
+    <string name="settings_permissions">保护权限</string>
+    <string name="settings_default_home">默认桌面</string>
+    <string name="settings_set_home">设为默认桌面</string>
+    <string name="settings_pin_saved">密码已更新</string>
+
+    <string name="block_message">此应用未添加到桌面</string>
+    <string name="block_home">返回桌面</string>
+    <string name="wallpaper_unavailable">这台设备没有壁纸选择器</string>
+    <string name="emergency_unavailable">这台设备没有紧急呼叫</string>
+
+    <string name="notif_channel">桌面保护</string>
+    <string name="notif_title">Launcher9</string>
+    <string name="notif_text">正在保护未添加到桌面的应用</string>
+</resources>
