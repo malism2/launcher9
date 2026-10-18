@@ -1,0 +1,37 @@
+Launcher9 — Google Play listing
+
+Title (max 30)
+Launcher9
+
+English
+Short description (max 80)
+A simple home screen. Other apps need a PIN or fingerprint.
+
+Full description
+Launcher9 is a simple home screen for seniors and kids.
+
+Phone, Messages, Contacts, Browser, and Settings can be placed on the home screen first. Every other app stays off the home screen until you add it. Adding an app, opening All Apps, changing the wallpaper, and opening Usage Control ask for a PIN or fingerprint.
+
+If an app that is not on the home screen comes to the foreground, Launcher9 blocks it and asks for the PIN. A temporary allow lasts only for that visit. Emergency calling stays available.
+
+Launcher9 needs to be the default home app, and it needs usage access so it can see which app is in front. Display over other apps lets the block screen appear immediately.
+
+中文
+简短说明（80 字以内）
+给老人和孩子的简单桌面。其他应用需要密码或指纹。
+
+完整说明
+Launcher9 是给老人和孩子用的简单桌面。
+
+电话、信息、联系人、浏览器和设置可以先放在主屏上。其他应用默认不出现，需要你添加后才显示。添加应用、打开全部应用、更换壁纸和进入使用控制时，都要输入密码或验证指纹。
+
+没有放在主屏上的应用如果跑到前台，会被拦住并要求输入密码。临时放行只在当次有效。紧急呼叫可以继续使用。
+
+请把 Launcher9 设为默认桌面。使用情况访问用来判断当前前台应用；显示在其他应用上层让拦截页马上出现。
+
+Graphics
+icon-512.png — 512×512 PNG, Play app icon
+feature-1024x500.png — 1024×500 PNG, English feature graphic
+feature-1024x500-zh.png — 1024×500 PNG, Chinese feature graphic
+
+Phone screenshots still need to be captured from the app: 2 to 8 images, 9:16, each side between 320 and 3840 px.

@@ -56,7 +56,12 @@ class AppBlockService : Service() {
                     delay(1500)
                     continue
                 }
-                val current = ForegroundAppReader.read(this)
+                val foreground = ForegroundAppReader.read(this)
+                if (ForegroundAppReader.isRecents(foreground)) {
+                    delay(700)
+                    continue
+                }
+                val current = foreground?.packageName
                 parental.onForegroundChanged(previousPackage, current)
                 if (current != null) previousPackage = current
                 if (parental.shouldBlock(current) && current != null) {
